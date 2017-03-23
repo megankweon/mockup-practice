@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html, body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+header {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+nav {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  background-color: grey;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+nav li {
+  display: inline;
+  float: left;
+}
+nav li a {
+  display: block;
+  color: purple;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline;;
+}
+
+footer {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  clear: both;
+}
+
+img {
+  height: 110px;
+}
+
+.links {
+  color: red;
+}
+
+.container {
+  position: relative;
+  min-height: 100%;
+}
+
+#top-link {
+  float: right;
+}
+
+#title {
+  font-style: normal;
+  margin-left: 1.5rem;
+}
+
+#subtitle {
+  color: grey;
+  margin-left: 1.5rem;
+}
+
+#body {
+  padding: 10px;
+  padding-bottom: 170px;
+}
+
+#left-section {
+  float: left;
+  margin: 0 1.5%;
+  width: 50%;
+}
+
+#right-section {
+  float: right;
+  margin: 0 1.5%;
+  width: 30%;
+  border: solid 1px;
+  padding: 1em;
+  margin: 1em;
+  text-align: center;
+}
+
+
+#copyright {
+  text-align: center;
+}
